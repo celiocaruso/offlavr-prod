@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=SF+Pro+Display:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-poppins: 'Poppins', sans-serif;
+  --font-sf-pro: 'SF Pro Display', sans-serif;
+  
+  --color-text: #1d2d3e;
+  --color-primary: #1A7CE5;
+  --color-secondary-bg: #f3f3f3;
+  --color-gray-2: #D9D9D9;
+  --color-gray-3: #A4A2A2;
+  --color-error: #CC1717;
+  --color-success: #3EB655;
+  --color-warning: #F9CF58;
+}
+
+body {
+  font-family: var(--font-poppins);
+  color: var(--color-text);
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-sf-pro {
+  font-family: var(--font-sf-pro);
+}
